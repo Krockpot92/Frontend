@@ -1,5 +1,7 @@
 /* -------  General Styles ------- */
 
+/* -------  General Styles ------- */
+
 body {
   font-family: "Lato", sans-serif;
   color: #6b1a22;
@@ -66,7 +68,7 @@ header nav{
 
 header nav ul{
   display: flex;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
 }
 
 .logo {
@@ -93,7 +95,7 @@ header nav ul li a:hover {
 /* -------  Join Form ------- */
 
 h1{
-  text-align: center;
+  /* text-align: center; */
 } 
 
 form {
@@ -144,19 +146,22 @@ footer p {
   header{
     display: flex;
     justify-content: space-between;
-    padding: 10px 20px 0 20px;
-    margin: 0;
+    padding:0;
+    /* padding: 10px 20px 0 20px;
+    margin: 0; */
+  }
+  .logo {
+    margin: 14px 0 14px 20px;
+    font-size: 42px;
   }
   
-  header nav{
-    padding-top: 12px;
+  header nav ul {
+    align-items: center;
   }
+  
 
   .group{
-    display: flex;
     flex-direction: row;
     align-items: center;
   } 
-
-
 }
